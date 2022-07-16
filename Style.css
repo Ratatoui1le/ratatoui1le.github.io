@@ -1,0 +1,192 @@
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+body{
+font-family: Menlo,Monaco,Consolas, monospace;
+font-weight: 800;
+background: linear-gradient(to top, #7A5589,#632F79);
+color: white;
+}
+.menu{
+  float: right;
+  padding: 1px;
+  margin: 13px 45px 0px 0px;
+  color: white;
+  font-weight: 300;
+  font-family: Menlo,Monaco,Consolas, monospace;
+}
+
+.box{
+  padding: 45px 0px 0px 0px;
+  margin: 0px 0px 0px 10px;
+  font-size: 20px;
+}
+  
+.rectangle{
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  background: #121122;
+}
+
+.circl{
+  display: flex;
+  position: absolute;
+  margin: 8px 0px 0px 10px;
+  width: 13px;
+  height: 13px;
+  background: #96302C;
+  border-radius: 50%;
+}
+
+.circl2{
+  display: flex;
+  position: absolute;
+  margin: 8px 0px 0px 32px;
+  width: 13px;
+  height: 13px;
+  background: #178374;
+  border-radius: 50%;
+}
+ 
+.circl3{
+  display: flex;
+  position: absolute;
+  margin: 8px 0px 0px 54px;
+  width: 13px;
+  height: 13px;
+  background: #C3C206;
+  border-radius: 50%;
+}
+
+.exe {
+  text-align: center;
+  padding: 4px 0px 0px 0px;
+  font-family: Consolas, monaco, monospacete;
+  font-weight: 700;
+}
+
+.inc {
+  margin: 10px;
+  position: absolute;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.personal {
+  text-align: center;
+  padding: 120px 0px 0px 0px;
+  font-family: 'Courier', monospace;
+}
+
+.hello {
+  font-weight: 100;
+  font-size: 14px;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.box2{
+  max-height: 20px;
+  text-align: center;
+  padding: 95px 35px 100px 35px;
+  margin: 0px 45px 100px 45px;
+  border: 2.5px solid #2E3030;
+  background: black;
+  border-radius: 3px;
+  box-shadow: -3px 1px 12px 2px #292A2C;
+}
+
+.line {
+  position: absolute;
+  padding: 10px 45px;
+  margin: -101px 0px 0px 0px;
+  left: 45px;
+  right: 45px;
+  border: 1.5px solid #2E3030;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #2E3030;
+}
+
+.circl11 {
+  position: absolute;
+  background: #C3767C;
+  padding: 5px 5px;
+  margin: -94px 0px 0px -30px;
+  max-width: 5px;
+  max-height: 5px;
+  border-radius: 50%;
+}
+
+.circl12 {
+  position: absolute;
+  background: #7EB07B;
+  padding: 5px 5px;
+  margin: -94px 0px 0px -16px;
+  max-width: 5px;
+  max-height: 5px;
+  border-radius: 50%;
+}
+
+.circl13 {
+  position: absolute;
+  background: #E4BE7E;
+  padding: 5px 5px;
+  margin: -94px 0px 0px -2px;
+  max-width: 5px;
+  max-height: 5px;
+  border-radius: 50%;
+}
+
+.box3 {
+  text-align: center;
+  padding: 10px;
+  background: #292A2C;
+  font-size: 12px;
+}
+
+.sel > div a{
+  color: white;
+}
+
+ion-icon {
+  color: #007A92;
+  font-size: 16px;
+  margin: 0px 5px;
+}
+
+ion-icon:hover {
+  color: #7A5589;
+  font-size: 22px;
+}
+  
+.colo {
+  margin: 5px 0px 0px 0px;
+  color: #8B8B8B;
+}
+
+.spec{
+  position: absolute;
+  padding: 1px;
+  margin: 1px 0px 0px 5px;
+  color: white;
+  font-size: 22px;
+}
+
+.spec:hover{
+  color: white;
+}
+
+.cod {
+  top: 10px;
+  font-size: 8px;
+  font-weight: 100;
+  text-align: left;
+}
